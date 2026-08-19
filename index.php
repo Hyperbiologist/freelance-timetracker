@@ -1,21 +1,4 @@
 <?php
-/*!
- *
- ______             _
-|  ____|           | |
-| |__ _ __ ___  ___| | __ _ _ __   ___ ___
-|  __| '__/ _ \/ _ \ |/ _` | '_ \ / __/ _ \
-| |  | | |  __/  __/ | (_| | | | | (_|  __/
-|_|  |_|  \___|\___|_|\__,_|_| |_|\___\___|
- _______ _                _                  _
-|__   __(_)              | |                | |
-   | |   _ _ __ ___   ___| |_ _ __ __ _  ___| | _____ _ __
-   | |  | | '_ ` _ \ / _ \ __| '__/ _` |/ __| |/ / _ \ '__|
-   | |  | | | | | | |  __/ |_| | | (_| | (__|   <  __/ |
-   |_|  |_|_| |_| |_|\___|\__|_|  \__,_|\___|_|\_\___|_|
-
- */
-
 /**
  * Default Settings
  * Set your default settings here
@@ -24,7 +7,7 @@ $settings = array(
   'rate' => 20, // default rate per hour
   'currency' => '€',
   'filename' => 'timetracker', // name of the database
-  'tasksno' => 5, // TODO: Number of tasks to show
+  'tasksno' => 5, // Number of tasks to show
   'saveinterval' => 10 // save every N seconds
 );
 
@@ -72,7 +55,7 @@ if (strlen($data) < 3) {
   <meta charset="UTF-8">
   <title>Freelance Timetracker</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.1.4/tailwind.min.css" />
-  <!--Fonts and icons -->
+  <!-- Fonts and icons -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png">
@@ -209,3 +192,4 @@ if (strlen($data) < 3) {
   <audio id="notify" src="#"></audio>
 </body>
 </html>
+
